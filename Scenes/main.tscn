@@ -1,3 +1,12 @@
 [gd_scene format=3 uid="uid://cptex7vrmir5o"]
 
+[sub_resource type="CanvasTexture" id="CanvasTexture_57qmd"]
+
 [node name="main" type="Node2D" unique_id=411104941]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2118367519]
+modulate = Color(0.5529412, 0.99607843, 0, 1)
+position = Vector2(-143.99997, -125.99997)
+scale = Vector2(1636.9999, 970.99994)
+texture = SubResource("CanvasTexture_57qmd")
+centered = false
