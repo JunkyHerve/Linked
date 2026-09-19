@@ -1,7 +1,5 @@
 [gd_scene format=3 uid="uid://cptex7vrmir5o"]
 
-[ext_resource type="Script" uid="uid://dcbpxd1sx7g7k" path="res://Scenes/testTween.gd" id="1_bo1nx"]
-
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7u77a"]
 load_path = "res://.godot/imported/Missing_texture.png-9cc07a1b9895be4beaf0d62e1d11de2f.ctex"
 
@@ -17,8 +15,7 @@ texture = SubResource("CompressedTexture2D_7u77a")
 stretch_mode = 1
 
 [node name="Button" type="Button" parent="." unique_id=203503994]
-offset_left = 169.0
-offset_top = 254.0
-offset_right = 349.0
-offset_bottom = 430.0
-script = ExtResource("1_bo1nx")
+offset_left = 574.0
+offset_top = 266.0
+offset_right = 754.0
+offset_bottom = 442.0
