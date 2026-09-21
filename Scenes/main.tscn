@@ -1,3 +1,20 @@
 [gd_scene format=3 uid="uid://cptex7vrmir5o"]
 
+[ext_resource type="Script" uid="uid://bm0lhm7gwdgpy" path="res://Scripts/main.gd" id="1_8gbba"]
+[ext_resource type="PackedScene" uid="uid://bft7oy7h1pxq" path="res://Scenes/spell_card.tscn" id="1_bo1nx"]
+[ext_resource type="Resource" uid="uid://buh08hw86u6gw" path="res://Ressources/spells/OffenseSpells/dagger.tres" id="2_8gbba"]
+
 [node name="main" type="Node2D" unique_id=411104941]
+script = ExtResource("1_8gbba")
+
+[node name="SpellCard" parent="." unique_id=888188223 instance=ExtResource("1_bo1nx")]
+spell = ExtResource("2_8gbba")
+
+[node name="Button" type="Button" parent="." unique_id=1596706953]
+offset_left = 242.0
+offset_top = 82.0
+offset_right = 282.0
+offset_bottom = 113.0
+text = "cast"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
