@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="OffenseSpell" format=3 uid="uid://buh08hw86u6gw"]
 
-[ext_resource type="Script" uid="uid://cf1q8sccg2okr" path="res://Scripts/offense_spell.gd" id="1_i55mx"]
+[ext_resource type="Script" uid="uid://cf1q8sccg2okr" path="res://Scripts/SpellRelated/offense_spell.gd" id="1_i55mx"]
 
 [resource]
 script = ExtResource("1_i55mx")

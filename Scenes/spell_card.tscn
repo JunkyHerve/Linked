@@ -1,6 +1,11 @@
 [gd_scene format=3 uid="uid://bft7oy7h1pxq"]
 
-[ext_resource type="Script" uid="uid://dmybu1naq4jp5" path="res://Scripts/spell_card.gd" id="1_dykon"]
+[ext_resource type="Script" uid="uid://dmybu1naq4jp5" path="res://Scripts/SpellRelated/spell_card.gd" id="1_dykon"]
+[ext_resource type="Script" uid="uid://b64b87opy8xbg" path="res://Scripts/SpellRelated/defense_spell.gd" id="2_yu1sb"]
+
+[sub_resource type="Resource" id="Resource_yu1sb"]
+script = ExtResource("2_yu1sb")
+metadata/_custom_type_script = "uid://b64b87opy8xbg"
 
 [sub_resource type="LabelSettings" id="LabelSettings_dykon"]
 font_size = 10
@@ -8,6 +13,7 @@ font_size = 10
 [node name="SpellCard" type="Node2D" unique_id=888188223]
 position = Vector2(151, 92)
 script = ExtResource("1_dykon")
+spell = SubResource("Resource_yu1sb")
 
 [node name="Background" type="ColorRect" parent="." unique_id=1222829117]
 anchors_preset = 8

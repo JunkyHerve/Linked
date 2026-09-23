@@ -8,4 +8,4 @@ func _ready() -> void:
 	player.mana = 30
 
 func _process(delta: float) -> void:
-	print(player.health)
+	pass
