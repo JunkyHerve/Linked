@@ -1,11 +1,8 @@
 extends Node
 
-var player: Entity
+var player: Player
 
 func _ready() -> void:
-	player = Entity.new()
+	player = Player.new()
 	player.health = 30
 	player.mana = 30
-
-func _process(delta: float) -> void:
-	pass

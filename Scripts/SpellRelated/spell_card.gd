@@ -14,6 +14,9 @@ var TYPE_COLORS = {
 }
 
 func _ready() -> void:
+	if spell == null:
+		push_error("spell card", self, " doesn't have any spells")
+		return
 	label_title.text = spell.name
 	label_cost.text = str(spell.cost)
 	if spell is OffenseSpell: background.color = Color.RED

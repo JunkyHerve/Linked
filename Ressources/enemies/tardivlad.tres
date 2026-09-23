@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Enemy" format=3 uid="uid://l1kihkdyebna"]
+
+[ext_resource type="Script" uid="uid://dxkxvva70y27e" path="res://Scripts/EntityRelated/enemy.gd" id="1_0ot4k"]
+[ext_resource type="Script" uid="uid://xoxalddruywb" path="res://Scripts/SpellRelated/spell.gd" id="2_3kecn"]
+[ext_resource type="Texture2D" uid="uid://c30sh47c83qoe" path="res://Assets/tardivlad.png" id="3_3kecn"]
+
+[resource]
+script = ExtResource("1_0ot4k")
+name = "Tardivlad"
+sprite = ExtResource("3_3kecn")
+health = 1
+mana = 1
+metadata/_custom_type_script = "uid://dxkxvva70y27e"

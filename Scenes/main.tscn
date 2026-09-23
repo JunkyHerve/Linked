@@ -1,5 +1,8 @@
 [gd_scene format=3 uid="uid://cptex7vrmir5o"]
 
+[ext_resource type="PackedScene" uid="uid://cm8xq0l1406wp" path="res://Scenes/enemy_card.tscn" id="1_jjgbg"]
+[ext_resource type="Resource" uid="uid://l1kihkdyebna" path="res://Ressources/enemies/tardivlad.tres" id="2_bo1nx"]
+
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7u77a"]
 load_path = "res://.godot/imported/Missing_texture.png-9cc07a1b9895be4beaf0d62e1d11de2f.ctex"
 
@@ -19,3 +22,7 @@ offset_left = 574.0
 offset_top = 266.0
 offset_right = 754.0
 offset_bottom = 442.0
+
+[node name="EnemyCard" parent="." unique_id=950839765 instance=ExtResource("1_jjgbg")]
+position = Vector2(298, 189)
+enemy = ExtResource("2_bo1nx")
