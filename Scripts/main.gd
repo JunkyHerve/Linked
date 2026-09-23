@@ -49,3 +49,5 @@ func _ready() -> void:
 	print("enemy health: ", enemy.health)
 	print("enemy statuses: ", enemy.statuses)
 	
+	pass
+	
