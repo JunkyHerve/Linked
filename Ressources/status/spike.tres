@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Status" format=3 uid="uid://dfymhb6qj8a4q"]
+
+[ext_resource type="Script" uid="uid://oj3e2dnccr71" path="res://Scripts/SpellRelated/status.gd" id="1_iye1y"]
+
+[resource]
+script = ExtResource("1_iye1y")
+name = "spike"
+metadata/_custom_type_script = "uid://oj3e2dnccr71"

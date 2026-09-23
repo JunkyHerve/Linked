@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Status" format=3 uid="uid://c1m4l7k3x8tdk"]
+
+[ext_resource type="Script" uid="uid://oj3e2dnccr71" path="res://Scripts/SpellRelated/status.gd" id="1_p54u7"]
+
+[resource]
+script = ExtResource("1_p54u7")
+name = "Poison"
+function = &"poison"
+metadata/_custom_type_script = "uid://oj3e2dnccr71"

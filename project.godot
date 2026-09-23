@@ -19,6 +19,7 @@ config/icon="res://Assets/icon.svg"
 
 Global="*uid://cyt1oyvknamuk"
 SpellCaster="*uid://b6utdc0pre4ns"
+StatusLoader="*uid://diltrr1gfhytp"
 
 [display]
 
