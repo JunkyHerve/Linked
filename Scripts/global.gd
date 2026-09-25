@@ -26,10 +26,10 @@ func get_spells(path: String = "res://Ressources/spells/") -> Array[Spell]:
 
 func pull_spell() -> Spell:
 	var spells: Array[Spell] = get_spells()
+	spells = spells.filter(func(s: Spell):
+		return s not in pulled_spells
+	)
 	if spells.size() == 0: return
-	for spell in spells:
-		if spell in pulled_spells:
-			spells.erase(spell)
 	var spell = spells.pop_at(randi_range(0, spells.size()-1))
 	pulled_spells.append(spell)
 	return spell
