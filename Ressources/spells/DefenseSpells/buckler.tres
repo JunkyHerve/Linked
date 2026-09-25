@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="DefenseSpell" format=3 uid="uid://dte7qmh50tw4c"]
+
+[ext_resource type="Script" uid="uid://b64b87opy8xbg" path="res://Scripts/SpellRelated/defense_spell.gd" id="1_klogr"]
+
+[resource]
+script = ExtResource("1_klogr")
+name = "Buckler"
+description = "Add 1 shield to user"
+function = &"buckler"
+metadata/_custom_type_script = "uid://b64b87opy8xbg"

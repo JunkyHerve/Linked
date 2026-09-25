@@ -1,4 +1,4 @@
-extends Node2D
+extends Control
 class_name SpellCard
 
 @onready var label_title: Label = %LabelTitle
@@ -22,3 +22,18 @@ func _ready() -> void:
 	if spell is OffenseSpell: background.color = Color.RED
 	elif spell is DefenseSpell: background.color = Color.BLUE
 	elif spell is StatusSpell: background.color = Color.GREEN
+
+
+func _on_mouse_entered() -> void:
+	z_index = 1
+	var tween = create_tween()
+	tween.tween_property(self, "offset_transform_scale", Vector2(1.3, 1.3), 0.1)
+	tween.parallel()
+	tween.tween_property(self, "offset_transform_rotation", randf_range(-0.5, 0.5), 0.1)
+
+func _on_mouse_exited() -> void:
+	z_index = 0
+	var tween = create_tween()
+	tween.tween_property(self, "offset_transform_scale", Vector2(1, 1), 0.1)
+	tween.parallel()
+	tween.tween_property(self, "offset_transform_rotation", .0, 0.1)

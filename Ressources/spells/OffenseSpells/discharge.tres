@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="OffenseSpell" format=3 uid="uid://de22xyw8ue3uw"]
+
+[ext_resource type="Script" uid="uid://cf1q8sccg2okr" path="res://Scripts/SpellRelated/offense_spell.gd" id="1_p3cgm"]
+
+[resource]
+script = ExtResource("1_p3cgm")
+name = "Discharge"
+cost = 5
+description = "deals 3 dmg + inflict 1 shock to target"
+function = &"discharge"
+metadata/_custom_type_script = "uid://cf1q8sccg2okr"

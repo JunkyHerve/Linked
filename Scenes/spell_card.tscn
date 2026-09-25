@@ -5,10 +5,21 @@
 [sub_resource type="LabelSettings" id="LabelSettings_dykon"]
 font_size = 10
 
-[node name="SpellCard" type="Node2D" unique_id=888188223]
+[node name="SpellCard" type="Control" unique_id=774231711]
+custom_minimum_size = Vector2(54, 85)
+layout_mode = 3
+anchor_right = 0.042000003
+anchor_bottom = 0.11800001
+offset_right = 0.23999786
+offset_bottom = 0.039993286
+size_flags_horizontal = 3
+offset_transform_enabled = true
+tooltip_text = "Cool Spell Card"
+mouse_default_cursor_shape = 2
 script = ExtResource("1_dykon")
 
 [node name="Background" type="ColorRect" parent="." unique_id=1222829117]
+layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -20,6 +31,7 @@ offset_right = 27.0
 offset_bottom = 42.5
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 1
 color = Color(0.17821202, 0.17821205, 0.17821205, 1)
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Background" unique_id=1454024774]
@@ -52,3 +64,6 @@ text = "5"
 label_settings = SubResource("LabelSettings_dykon")
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

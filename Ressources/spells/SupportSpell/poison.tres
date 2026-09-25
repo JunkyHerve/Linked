@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SupportSpell" format=3 uid="uid://bkf2y0o5dehdc"]
+
+[ext_resource type="Script" uid="uid://bly1jytty15y0" path="res://Scripts/SpellRelated/support_spell.gd" id="1_glugj"]
+
+[resource]
+script = ExtResource("1_glugj")
+name = "Poison"
+cost = 3
+description = "inflicts 2 poison to one target"
+function = &"poison"
+metadata/_custom_type_script = "uid://bly1jytty15y0"

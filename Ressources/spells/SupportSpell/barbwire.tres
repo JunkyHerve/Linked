@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SupportSpell" format=3 uid="uid://t4rmr36ix32c"]
+
+[ext_resource type="Script" uid="uid://bly1jytty15y0" path="res://Scripts/SpellRelated/support_spell.gd" id="1_xu4yb"]
+
+[resource]
+script = ExtResource("1_xu4yb")
+name = "Barbwire"
+cost = 14
+description = "Once per battle, grant user 10 spike"
+function = &"barbwire"
+metadata/_custom_type_script = "uid://bly1jytty15y0"

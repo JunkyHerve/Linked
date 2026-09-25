@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="StatusSpell" format=3 uid="uid://byre512wj5nw1"]
+
+[ext_resource type="Script" uid="uid://bly1jytty15y0" path="res://Scripts/SpellRelated/support_spell.gd" id="1_lf3kx"]
+
+[resource]
+script = ExtResource("1_lf3kx")
+name = "Dodge"
+cost = 6
+description = "Grant user 1 dodge"
+function = &"dodge"
+metadata/_custom_type_script = "uid://bly1jytty15y0"

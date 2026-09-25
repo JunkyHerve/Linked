@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="OffenseSpell" format=3 uid="uid://dx8fmc0ccks3w"]
+
+[ext_resource type="Script" uid="uid://cf1q8sccg2okr" path="res://Scripts/SpellRelated/offense_spell.gd" id="1_motn1"]
+
+[resource]
+script = ExtResource("1_motn1")
+name = "wooden_sword"
+cost = 4
+description = "Deals 5 damage to one foe"
+function = &"wooden_sword"
+metadata/_custom_type_script = "uid://cf1q8sccg2okr"

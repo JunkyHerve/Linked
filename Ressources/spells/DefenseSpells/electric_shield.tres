@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="DefenseSpell" format=3 uid="uid://carda4pkhx4si"]
+
+[ext_resource type="Script" uid="uid://b64b87opy8xbg" path="res://Scripts/SpellRelated/defense_spell.gd" id="1_es56t"]
+
+[resource]
+script = ExtResource("1_es56t")
+name = "Electric shield"
+cost = 5
+description = "Adds 15 shield to user, inflict 3 shocks to user, once per turn"
+function = &"electric_shield"
+metadata/_custom_type_script = "uid://b64b87opy8xbg"

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="DefenseSpell" format=3 uid="uid://bxpmjwr444sil"]
+
+[ext_resource type="Script" uid="uid://b64b87opy8xbg" path="res://Scripts/SpellRelated/defense_spell.gd" id="1_1nmy5"]
+
+[resource]
+script = ExtResource("1_1nmy5")
+type = 1
+name = "Recover"
+cost = 6
+description = "once per turn, heals 4 hp to user"
+function = &"recover"
+metadata/_custom_type_script = "uid://b64b87opy8xbg"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SupportSpell" format=3 uid="uid://caq7knj12angd"]
+
+[ext_resource type="Script" uid="uid://bly1jytty15y0" path="res://Scripts/SpellRelated/support_spell.gd" id="1_lh87f"]
+
+[resource]
+script = ExtResource("1_lh87f")
+name = "Illusion"
+cost = 5
+description = "50% chance to grand 2 dodge to user "
+function = &"illusion"
+metadata/_custom_type_script = "uid://bly1jytty15y0"
