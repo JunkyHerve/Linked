@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://b2jaehl0eoq7b"]
+
+[ext_resource type="Script" uid="uid://bv2v0qkmx2q5b" path="res://Scripts/spell_pull.gd" id="1_gy30d"]
+[ext_resource type="Script" uid="uid://xoxalddruywb" path="res://Scripts/SpellRelated/spell.gd" id="2_mpbtb"]
+[ext_resource type="Script" uid="uid://cf1q8sccg2okr" path="res://Scripts/SpellRelated/offense_spell.gd" id="3_6niui"]
+[ext_resource type="Script" uid="uid://b64b87opy8xbg" path="res://Scripts/SpellRelated/defense_spell.gd" id="4_vkgbd"]
+[ext_resource type="Script" uid="uid://bly1jytty15y0" path="res://Scripts/SpellRelated/support_spell.gd" id="5_q16l2"]
+
+[sub_resource type="Resource" id="Resource_rqbjp"]
+script = ExtResource("3_6niui")
+name = "Dagger"
+description = null
+function = &"dagger"
+metadata/_custom_type_script = "uid://cf1q8sccg2okr"
+
+[sub_resource type="Resource" id="Resource_xogt0"]
+script = ExtResource("4_vkgbd")
+name = "Cool shield"
+cost = 3
+description = null
+metadata/_custom_type_script = "uid://b64b87opy8xbg"
+
+[sub_resource type="Resource" id="Resource_wa0c3"]
+script = ExtResource("5_q16l2")
+name = "poison"
+cost = 19
+metadata/_custom_type_script = "uid://bly1jytty15y0"
+
+[node name="SpellPool" type="HBoxContainer" unique_id=91957973]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -85.0
+offset_top = -42.5
+offset_right = 85.0
+offset_bottom = 42.5
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+script = ExtResource("1_gy30d")
+spells = Array[ExtResource("2_mpbtb")]([SubResource("Resource_rqbjp"), SubResource("Resource_xogt0"), SubResource("Resource_wa0c3")])
