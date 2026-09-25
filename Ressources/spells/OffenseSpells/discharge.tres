@@ -8,4 +8,5 @@ name = "Discharge"
 cost = 5
 description = "deals 3 dmg + inflict 1 shock to target"
 function = &"discharge"
+tier = 2
 metadata/_custom_type_script = "uid://cf1q8sccg2okr"

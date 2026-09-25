@@ -9,4 +9,5 @@ name = "Recover"
 cost = 6
 description = "once per turn, heals 4 hp to user"
 function = &"recover"
+tier = 2
 metadata/_custom_type_script = "uid://b64b87opy8xbg"

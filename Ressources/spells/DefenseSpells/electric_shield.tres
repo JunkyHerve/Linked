@@ -8,4 +8,5 @@ name = "Electric shield"
 cost = 5
 description = "Adds 15 shield to user, inflict 3 shocks to user, once per turn"
 function = &"electric_shield"
+tier = 3
 metadata/_custom_type_script = "uid://b64b87opy8xbg"

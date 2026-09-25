@@ -8,4 +8,5 @@ name = "Barbwire"
 cost = 14
 description = "Once per battle, grant user 10 spike"
 function = &"barbwire"
+tier = 1
 metadata/_custom_type_script = "uid://bly1jytty15y0"

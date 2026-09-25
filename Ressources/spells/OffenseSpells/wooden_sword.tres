@@ -8,4 +8,5 @@ name = "wooden_sword"
 cost = 4
 description = "Deals 5 damage to one foe"
 function = &"wooden_sword"
+tier = 2
 metadata/_custom_type_script = "uid://cf1q8sccg2okr"

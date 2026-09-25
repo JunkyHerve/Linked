@@ -7,4 +7,5 @@ script = ExtResource("1_klogr")
 name = "Buckler"
 description = "Add 1 shield to user"
 function = &"buckler"
+tier = 1
 metadata/_custom_type_script = "uid://b64b87opy8xbg"

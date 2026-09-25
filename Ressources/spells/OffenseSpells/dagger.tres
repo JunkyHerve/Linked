@@ -7,4 +7,5 @@ script = ExtResource("1_i55mx")
 name = "Dagger"
 description = "Deals 1 damage to one foe"
 function = &"dagger"
+tier = 1
 metadata/_custom_type_script = "uid://cf1q8sccg2okr"

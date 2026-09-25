@@ -8,4 +8,5 @@ name = "Adrenaline sword"
 cost = 4
 description = "Deals 5 damage and + 10 if the user is below 50% health"
 function = &"adrenaline_sword"
+tier = 2
 metadata/_custom_type_script = "uid://cf1q8sccg2okr"
